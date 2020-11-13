@@ -2,7 +2,7 @@ import './header.css'
 function MainText() {
     return (
         <div  className="maintext"> 
-            <h1>The News</h1>            
+            The News            
         </div>
     )
 }
