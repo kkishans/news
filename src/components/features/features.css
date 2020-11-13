@@ -1,0 +1,86 @@
+.spotlist, .videobox{
+    font-family: serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    background-color: rgba(243, 243, 243, 0.904);;
+    padding: 5px;
+}
+p span{
+    background-color: lightgray;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    margin: auto;
+}
+.spotlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spotbox img{
+    margin: 0px 10px;
+    height: 150px;
+    width: 280px;
+    border-radius: 5px;
+}
+.spotbox p {
+    width: 240px;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+}
+
+.videobox{
+    padding-top: 40px;
+    margin: auto;
+    border-left: 1px solid lightgray;
+    margin-left: -50px;
+    padding-left: 50px;
+    /* Rectangle 10 */
+}
+.videobox img{
+    /* position: relative; */
+    width: 280px;
+    height: 180px;
+    opacity: 200%;
+    border-radius: 8px;
+    padding: auto;
+}
+.videobox .p-div{
+    background: rgba(61, 42, 42, 0.6);
+    margin-top: -185px;
+    position: absolute;
+    height: 150px;
+    width: 260px;
+    border-radius: 10px;
+    display: flexbox;
+    justify-content: end;
+    padding: 10px;
+}
+.p-div p{
+    background: none;
+    color: white;
+    justify-content: flex-end;
+    font-size: 22px;
+    font-family: serif;
+}
+.p-div span{
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+/* identical to box height */
+
+color: #FF0101;
+
+
+}
