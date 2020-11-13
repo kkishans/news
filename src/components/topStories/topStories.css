@@ -1,0 +1,118 @@
+.image{
+    position: absolute;
+    width: 460px;
+    height: 260px;
+    left: 43px;
+    top: 181px;
+    background: url(../../images/iron-man.jpg);
+
+}
+
+.title{
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 397px;
+height: 60px;
+left: 54px;
+top: 403px;
+
+background: #FFFFFF;
+
+
+/* What One Photo Tells */
+
+position: absolute;
+width: 370px;
+height: 54px;
+left: 66px;
+top: 405px;
+padding-left: 15px;
+
+font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: flex-end;
+
+color: #222222;
+
+
+}
+
+.Clues_from_a_propage{
+    /* Clues from a propaga */
+
+    position: absolute;
+    width: 461.3px;
+    height: 32px;
+    left: 55px;
+    top: 466px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #222222;
+}
+
+.topStories_head{
+    /* TOP STORIES */
+
+position: absolute;
+width: 74px;
+height: 14px;
+right: 421px;
+top: 185px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+
+color: #434343;
+
+}
+
+.topStories{
+    /* PM unveils Shiva sta */
+
+    position: absolute;
+    width: 219px;
+    height: 280px;
+    right: 282px;
+    top: 220px;
+
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* or 117% */
+
+    color: #222222;
+}
+
+.line{
+   /* Line */
+
+position: absolute;
+width: 221px;
+height: 3px;
+right: 281px;
+top: 253px;
+
+border: 1px solid #ECECEC;
+
+}
