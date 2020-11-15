@@ -3,6 +3,9 @@ import './worldnews.css';
 function Sports(props) {
     return(
         <div>
+            <div className="header">
+                <p> Entertainment</p>
+            </div><br/><br/><br/>
             <div className="sp0rts">
                <p className="headline">
                 COA wants all BCCI bodies to produce compliance report
