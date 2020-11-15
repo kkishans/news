@@ -193,3 +193,48 @@ color: #0876FF;
 
 
 }
+
+.search_text{
+    /* Get the Quick Bites */
+
+position: absolute;
+width: 190px;
+height: 30px;
+right: 73px;
+top: 453px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight:bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+
+color: #0876FF;
+
+
+}
+
+.textbox{
+    /* Line */
+
+position: absolute;
+width: 153.18px;
+height: 2px;
+left: 762.5px;
+top: 510.5px;
+
+
+
+/* Line */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #0C79FF;
+
+}
