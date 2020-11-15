@@ -5,7 +5,7 @@ function Footer() {
          	   	                                                      
         <div className="footer">
             <ul>
-                <li style={{fontWeight:'800',fontSize:14}}>© 2017 The Telegraph Company</li>
+                <li style={{fontWeight:'800',fontSize:14,marginLeft:'1px'}}>© 2017 The Telegraph Company</li>
                 <li><a href="#">Contact Us</a>  </li>
                 <li><a href="#">Work With Us</a>  </li>
                 <li><a href="#">Advertise</a>  </li>
