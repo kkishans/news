@@ -1,0 +1,61 @@
+.worldnews{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.header p {
+    background-color: lightgray;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+}
+.headline{
+    margin-top: -10px;
+    font-size: 18px;
+}
+.content{
+    margin-top: -18px;
+}
+.content-holder{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2px;
+    margin-left: 5px;
+}
+.list{
+    border-bottom: 1px solid lightgray;
+    margin-left: 5px;
+}
+.section4 img{
+    width: 200px;
+    height: 200px;
+}
+.section1{
+    width: 15%;
+    border-right: 1px solid lightgray;
+    padding-right: 5px;
+    padding: 2px;
+}
+.section2{
+    width: 40%;
+    border-right: 1px solid lightgray;
+    padding-right: 5px;
+    padding: 2px;
+}
+.section3{
+    width: 35%;
+    border-right: 1px solid lightgray;
+    padding-right: 5px;
+}
+.section4{
+    width: 15%;
+    margin: auto;
+    padding: 2px;
+}
+.section2 img{
+    height: 100px;
+    width: 150px;
+    margin: 2px;
+}

@@ -7,11 +7,11 @@
     justify-content: space-between;
     margin-top: 200px;
 }
-p{
+.row p{
     background-color: rgba(243, 243, 243, 0.904);;
     padding: 5px;
 }
-p span{
+.row p span{
     background-color: lightgray;
     margin-right: 10px;
 }
