@@ -1,240 +1,66 @@
-.image{
-    position: absolute;
-    width: 460px;
-    height: 260px;
-    left: 43px;
-    top: 210px;
-    background: url(../../images/iron-man.jpg);
-}
-
-.title{
-
-/* Rectangle 4 */
-
-position: absolute;
-width: 397px;
-height: 60px;
-left: 54px;
-top: 403px;
-
-background: #FFFFFF;
-
-
-/* What One Photo Tells */
-
-position: absolute;
-width: 370px;
-height: 54px;
-left: 66px;
-top: 435px;
-padding-left: 15px;
-
-font-family: PT Serif;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 26px;
-display: flex;
-align-items: flex-end;
-
-color: #222222;
-
-
-}
-
-.Clues_from_a_propage{
-    /* Clues from a propaga */
-
-    position: absolute;
-    width: 461.3px;
-    height: 32px;
-    left: 55px;
-    top: 500px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 14px;
+.top-stories{
     display: flex;
-    align-items: flex-end;
-
+    /* justify-content: space-between; */
+}
+.image{
+    margin: 5px;
+}
+.cover{
+    width: 40%;
+}
+.top-list{
+    width: 40%;
+}
+.quick-bit{
+    width:20%;
+    padding: 10px;
+    line-height: 25px;
+}
+.quick-bit-content{
+    background-color: rgb(243, 243, 243);
+    padding: 5px;
+}
+image img{
+    width: 500px;
+    height:350px;
+}
+.title{
+    position: relative;
+    background: #FFFFFF;
+    width: 85%;
+    padding: 5px;
+    margin-left: 20px;
+    font-family:Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
     color: #222222;
-}
-
-.topStories_head{
-    /* TOP STORIES */
-
-position: absolute;
-width: 150px;
-height: 14px;
-right: 850px;
-top: 210px;
-padding-left: 10px;
-
-font-style: normal;
-
-font-size: 18px;
-/* identical to box height */
-display: flex;
-align-items: flex-end;
-
-color: #434343;
-
-/* Rectangle 3 */
-
-height: 25px;
-
-background: #FBFF22;
-
+    margin-top: -20px;
 
 }
-
-.stories{
-    position: absolute;
-    right: 780px;
-    top:250px;
-    width: 219px;
+.Clues_from_a_propage{
+    margin: 5px;
 }
-
-.topStories{
-/* PM unveils Shiva sta */
-
-position: absolute;
-width: 219px;
-height: 280px;
-left: calc(50% - 219px/2 + 120.5px);
-top: 250px;
-
-font-family: PT Serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-/* or 117% */
-
-color: #222222;
-
-
-}
-
-.line{
-   /* Line */
-
-position: absolute;
-width: 221px;
-height: 3px;
-right: 281px;
-top: 253px;
-
-border: 1px solid #ECECEC;
-
-}
-
-.quick_bite_div{
-/* Rectangle 3 Copy */
-
-position: absolute;
-width: 150px;
-height: 25px;
-right: 300px;
-top: 210px;
-padding-left: 10px;
-font-size: 18px;
-background: #FBFF22;
-}
-
-.quick_bite_p{
-    /* QUICK BITES */
-
-position: absolute;
-width: 70px;
-height: 14px;
-right: 184px;
-top: 182px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-display: flex;
-align-items: flex-end;
-
-color: #434343;
-}
-
-.quick_bite{
-    position: absolute;
-    top: 40px;
-}
-
-.next_button{
-    /* Next */
-
-position: absolute;
-width: 50px;
-height: 20px;
-right: 30px;
-top: 240px;
-background: none;
-border: none;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height */
-display: flex;
-align-items: flex-end;
-
-color: #0876FF;
-
-
-}
-
-.search_text{
-    /* Get the Quick Bites */
-
-position: absolute;
-width: 190px;
-height: 30px;
-right: 73px;
-top: 453px;
+.sign-up p{
 
 font-family: Merriweather;
 font-style: normal;
-font-weight:bold;
-font-size: 12px;
+font-weight: bold;
+font-size: 20px;
 line-height: 15px;
-display: flex;
-align-items: flex-end;
-
 color: #0876FF;
-
+}
+.sign-up input{
+ border: none;
+border-bottom: 2px solid #0C79FF;
 
 }
-
-.textbox{
-    /* Line */
-
-position: absolute;
-width: 153.18px;
-height: 2px;
-left: 762.5px;
-top: 510.5px;
-
-
-
-/* Line */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-border: 1px solid #0C79FF;
+.sign-up button{
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #0C79FF;
 
 }

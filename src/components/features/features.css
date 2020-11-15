@@ -5,7 +5,6 @@
 .row{
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
 }
 .row p{
     background-color: rgba(243, 243, 243, 0.904);;
@@ -80,8 +79,5 @@ font-family: sans-serif;
 font-style: normal;
 font-weight: bold;
 /* identical to box height */
-
 color: #FF0101;
-
-
 }

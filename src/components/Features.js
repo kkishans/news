@@ -10,8 +10,8 @@ function Features() {
                 <Tagline/>
                 <Highlight/>
             </div>
-            <div style={{width:'25%',marginTop:'200px'}}>
-                <LiveVideo  video="video1.svg" headline="Watch Modi live from G8 Summit"/>
+            <div style={{width:'25%'}}>
+                <LiveVideo  video="video-image1.png" headline="Watch Modi live from G8 Summit"/>
             </div>
         </div>
     );
