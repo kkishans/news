@@ -11,7 +11,7 @@ function Features() {
                 <Highlight/>
             </div>
             <div style={{width:'25%'}}>
-                <LiveVideo  video="video1.svg" headline="Watch Modi live from G8 Summit"/>
+                <LiveVideo  video="video-image1.png" headline="Watch Modi live from G8 Summit"/>
             </div>
         </div>
     );
