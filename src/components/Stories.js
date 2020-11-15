@@ -6,12 +6,12 @@ import QuickBites from './topStories/QuickBites'
 function Stories() {
     return(
         <div className="row">
-            <div style={{width:'70%'}}>
+            <div style={{width:'100%'}}>
                 <TopStories/>
             </div>
-            <div style={{width:'25%',marginTop:'200px'}}>
+            {/* <div style={{width:'25%'}}>
                 <QuickBites/>
-            </div>
+            </div> */}
         </div>
     );
 }
