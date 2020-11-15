@@ -26,7 +26,7 @@ function Section3() {
                 </p>
                 <div>
                     <input type="text" placeholder="Enter you email"/>
-                    <button>SIGNUP</button>
+                    <button>Sing Up</button>
                 </div>
             </div>
         </div>

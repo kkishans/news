@@ -12,7 +12,7 @@ function Section2() {
                         </p>
                     </div>
                     <div className="content-img">
-                        <img src={`${process.env.PUBLIC_URL}/imgs/viedeo-image1.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/imgs/video-image1.png`} />
                     </div>
                 </div>
      

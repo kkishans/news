@@ -35,7 +35,7 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
-ul{
+.links-list ul{
     list-style: none;
     display: inline-flex;
     text-align: center;
@@ -43,12 +43,12 @@ ul{
     justify-content: center;
     margin: auto;
 }
-ul li{
+.links-list ul li{
     justify-content: space-between;
     margin: 0px 20px;
     font-weight: bold;
 }
-ul li a{
+.links-list ul li a{
     text-decoration: none;
     color: black;
     font: 22px;

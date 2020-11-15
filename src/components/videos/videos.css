@@ -1,0 +1,127 @@
+.header3 p {
+    display: flex;
+    background-color: lightgray;
+    margin-right: 10px;
+    justify-content: start;
+    font-size: 18px;
+    padding: 2px;
+    justify-content: flex-end;
+  }
+.video-categories-list ul{
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+}
+.video-categories-list li{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.video-section1{
+    border: 1px solid lightgray;
+    width: 75%;
+}
+.videoplay-section{
+    display: flex;
+}
+.play-video{
+    padding: 0px 10px;
+    border-right:1px solid lightgray;
+    margin-right: 10px;
+}
+.play-video ul{
+    margin-left: -50px;
+}
+.play-video img{
+    width: 630px;
+    height: 400px;
+}
+.hover{
+    background: rgba(61, 42, 42, 0.6);
+    margin-top: -405px;
+    position: absolute;
+    width: 630px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+.hover svg{
+    margin:10px
+}
+.hover p{
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+color: #FFFFFF;
+font-size: 24px;
+}
+.hover span{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.v-list{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: -50px;
+    padding-left: 50px;
+    /* Rectangle 10 */
+}
+.v-list img{
+    width: 280px;
+    height: 150px;
+    opacity: 200%;
+    padding: auto;
+}
+.v-list .p-div{
+    background: rgba(61, 42, 42, 0.6);
+    margin-top: -155px;
+    position: absolute;
+    height: 130px;
+    width: 260px;
+    display: flexbox;
+    justify-content: end;
+    padding: 10px;
+}
+.v-list .p-div p{
+    background: none;
+    color: white;
+    align-items: flex-end;
+    font-size: 20px;
+    font-family: serif;
+}
+.v-list .p-div .time{
+    font-size: 16px;
+}
+.cardlist{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.cardlist img{
+    width: 100%;
+}
+.card{
+    width: 18%;
+}
+.Mlist{
+    display: flex;
+}
+.mostPopulars{
+   width: 100%;
+}
+.Mlist .no{
+    font-size: 36px;
+    font-weight: bold;
+    color:rgb(241, 241, 241);
+    margin: 8px;
+    padding: 0px 10px;
+}
+.Mlist .text{
+    font-size: 16px;
+}
+.videos-container{
+    display: flex;
+}
