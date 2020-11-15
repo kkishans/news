@@ -2,15 +2,18 @@ import './features/features.css';
 import './topStories/topStories.css'
 import TopStories from './topStories/TopStories';
 import QuickBites from './topStories/QuickBites'
-
+import Section3 from './topStories/Section3';
 function Stories() {
     return(
-        <div className="row">
-            <div style={{width:'70%'}}>
-                <TopStories/>
+        <div className="top-stories">
+            <div className="cover">
+              <QuickBites/>
             </div>
-            <div style={{width:'25%',marginTop:'200px'}}>
-                <QuickBites/>
+            <div className="top-list">
+              <TopStories/>
+            </div>
+            <div className="quick-bit">
+                <Section3/>
             </div>
         </div>
     );
