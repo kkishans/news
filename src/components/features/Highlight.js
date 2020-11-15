@@ -6,15 +6,15 @@ function Highlight() {
         <div className="spotlist">
            <div>
                 <Spot headline="Women Do Like to Compete 
-                Against Themselves" img="spot1.svg"/>
+                Against Themselves" img="image2.png"/>
            </div>
            <div>
                 <Spot headline="Vijay Mallya, the fugitive 
-                supposed to be part of " img="spot2.svg"/>
+                supposed to be part of " img="image3.png"/>
            </div>
            <div>
                 <Spot headline="Women Do Like to Compete 
-                Against Themselves" img="spot3.svg"/>
+                Against Themselves" img="image4.png"/>
            </div>
         </div>
     );
